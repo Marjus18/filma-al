@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  background-image: url(./images/background-collage-bojqielli.jpg);
+  /* background-color: rgba(67, 90, 224, 0.781); */
+  height: 100vh;
+}
+.main-page {
+  /* border: 2px solid red; */
+  font-family: roboto-condesed;
+  font-size: 3.5rem;
+  color: rgb(255, 255, 31);
+  background-color: rgba(24, 23, 23, 0.705);
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  transition-duration: 1s;
+  border-radius: 25%;
+}
+.main-page:hover {
+  transform: rotate(10deg);
+}
+.movie-cont {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 95%;
+  padding: 0.8em;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border: 0.125em solid black;
+}
+.movies {
+  width: 14em;
+  height: 14em;
+}
+.m1 {
+  margin: 0em -2.5em;
+}
+.movie-img {
+  width: fit-content;
+}
+.movie-img:hover {
+  transform: scale(1.1);
+}
+.video-prov {
+  color: white;
+  width: 20em;
+  height: 20em;
+
+}
+
+@media (max-width: 500px) {
+  .movie-cont {
+    flex-direction: column;
+    width: 100%;
+  }
+  .movies {
+    margin-top: 0.8em;
+  }
+
+  .m1 {
+    margin-left: 0.2em;
+    height: 25%;
+  }
+}
