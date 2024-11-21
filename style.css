@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-image: url(./images/movie-background-collage\ blue.jpg);
+  background-image: url(./images/movie-background-collage\ blue.webp);
   /* background-color: rgb(81, 119, 168); */
   /* z-index: 1; */
 }
@@ -83,6 +83,7 @@
   letter-spacing: 0.2rem;
   text-align: center;
   padding: 2em;
+  line-height: 1;
 }
 .text1:hover {
   text-decoration: underline;
@@ -116,12 +117,12 @@ img {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
   }
   .nav-links {
     flex-direction: column;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
   }
   .main-page {
     font-size: xx-large;
@@ -138,5 +139,10 @@ img {
     height: 90%;
     text-align: center;
     letter-spacing: 0.125rem;
+  }
+  .text1 {
+    line-height: 2;
+  letter-spacing: 0.2rem;
+
   }
 }
